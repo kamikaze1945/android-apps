@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pl.servicemedia.application.scanerbarcodeqr.activity.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_link_scan_barcode"
+        android:orderInCategory="100"
+        android:title="@string/link_scan_barcode"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_link_create_barcode"
+        android:orderInCategory="100"
+        android:title="@string/link_create_qrcode"
+        app:showAsAction="collapseActionView"/>
+</menu>
